@@ -1,0 +1,14 @@
+[project]
+name = "self-attention-comparison"
+version = "1.0.0"
+dependencies = [
+    "torch",
+    "numpy",
+    "triton",
+    "numba",
+    "tqdm"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
